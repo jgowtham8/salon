@@ -1,0 +1,74 @@
+.input{
+	height:30px;
+	width:100%;
+	padding:0px;
+	margin-top:0px;
+	
+}
+
+.tableContainer { 
+	overflow-y: auto; 
+	height: 400px;
+	width: 96%;
+	
+	overflow: auto;
+	margin-left: 2%;
+	margin-right: 2%;
+	/*left: 2%; /*this will work when position is absolute
+  	right: 2%;  /*this will work when position is absolute
+  	position: absolute;*/
+}
+
+.tableContainer th { 
+	position: sticky; top: 0; 
+}
+
+.btnr{
+	border-radius:5px;
+	padding:5px;
+	background:#663b95;
+	color:white;
+	
+}
+
+table  { 
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td { padding: 8px 16px; 
+	text-align: center;
+}
+
+th{ 
+	
+	background: #eee;
+}
+
+.label{
+    padding: 8px 16px; 
+    text-align: center;
+    background:black;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+}
+
+/*.buttons{
+	display:flex;
+	justify-content:flex-end;
+  	align-items:left;
+  	margin-right: 2%;
+}*/
+
+.head { 
+	
+	width: 96%;
+	
+	
+	margin-left: 2%;
+	margin-right: 2%;
+}
+td{
+	
+}
